@@ -1,0 +1,2272 @@
+[
+  {
+    "task": [
+      {
+        "id": "dd4d5881-78d1-43fa-8a64-f0797172544e",
+        "task_type": "Cleaning",
+        "status": "Pending",
+        "created_at": "2023-09-14T18:47:21.156Z",
+        "updated_at": "2023-09-15T00:25:24.379Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "353622dc-3532-457b-becc-36f2bb6a42d8",
+        "task_type": "Repair",
+        "status": "In Progress",
+        "created_at": "2023-09-14T23:51:01.952Z",
+        "updated_at": "2023-09-14T07:48:08.289Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "5087875d-aed6-4daa-aadf-d5da9ebf6850",
+        "task_type": "Installation",
+        "status": "Completed",
+        "created_at": "2023-09-14T15:53:05.241Z",
+        "updated_at": "2023-09-15T00:55:19.237Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "c97967a0-5ba5-4992-a2a6-a13e2da370a9",
+        "task_type": "Maintenance",
+        "status": "On Hold",
+        "created_at": "2023-09-15T02:58:49.885Z",
+        "updated_at": "2023-09-15T03:08:44.666Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "70b14317-be09-4fc6-ad6e-81f8d75043b0",
+        "task_type": "Renovation",
+        "status": "Cancelled",
+        "created_at": "2023-09-14T17:46:40.480Z",
+        "updated_at": "2023-09-14T23:16:17.258Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "service_rate": [
+      {
+        "id": "c6758550-9da9-40e3-a588-edd2a52e03c8",
+        "service_type": "Hourly Rate",
+        "rate": 38629,
+        "created_at": "2023-09-14T21:25:03.995Z",
+        "updated_at": "2023-09-15T03:28:21.188Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "2c86c158-16c2-46a0-8b7e-dd9f205d35c0",
+        "service_type": "Fixed Rate",
+        "rate": 1299,
+        "created_at": "2023-09-14T14:55:58.430Z",
+        "updated_at": "2023-09-14T07:32:05.795Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "ef50d388-96f8-4597-a8b6-e7d7fa1a3ed9",
+        "service_type": "Per Project",
+        "rate": 69714,
+        "created_at": "2023-09-14T11:51:22.119Z",
+        "updated_at": "2023-09-14T23:52:16.289Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "fddc2279-49e1-4f2c-918f-bf71255e9050",
+        "service_type": "Monthly Retainer",
+        "rate": 78033,
+        "created_at": "2023-09-14T20:21:19.150Z",
+        "updated_at": "2023-09-15T00:48:58.617Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "79ae4f25-d2d7-4708-9612-1aad606675c3",
+        "service_type": "Package Deal",
+        "rate": 75848,
+        "created_at": "2023-09-14T11:41:40.422Z",
+        "updated_at": "2023-09-14T14:08:15.342Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "6d37f530-6153-444d-a15c-c2f14baa83ee",
+        "name": "Product A",
+        "description": "High-quality product",
+        "created_at": "2023-09-14T22:35:03.269Z",
+        "updated_at": "2023-09-15T03:26:10.926Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "aa450d21-45d6-450f-a235-0eca68d30416",
+        "name": "Product B",
+        "description": "Durable and reliable",
+        "created_at": "2023-09-15T00:41:06.090Z",
+        "updated_at": "2023-09-14T07:36:51.365Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "775d8b29-d2ab-4817-bb43-398f11b90165",
+        "name": "Product C",
+        "description": "Innovative design",
+        "created_at": "2023-09-14T11:02:17.851Z",
+        "updated_at": "2023-09-14T06:11:45.649Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "e445f756-7caf-4441-9cfb-474c28662eb0",
+        "name": "Product D",
+        "description": "Versatile usage",
+        "created_at": "2023-09-15T02:47:22.913Z",
+        "updated_at": "2023-09-14T22:28:27.326Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "b346b66b-8966-42d9-96de-06aa1069c4aa",
+        "name": "Product E",
+        "description": "Premium materials",
+        "created_at": "2023-09-14T10:57:41.740Z",
+        "updated_at": "2023-09-14T18:00:27.604Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "f8a0ea11-ca94-41fb-b8b8-697afa03e566",
+        "order_type": "Online Order",
+        "status": "Processing",
+        "created_at": "2023-09-14T22:52:06.044Z",
+        "updated_at": "2023-09-14T11:51:01.996Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "f5719e4a-3780-40af-bef6-8add11bd8dfd",
+        "order_type": "Phone Order",
+        "status": "Shipped",
+        "created_at": "2023-09-14T17:34:48.616Z",
+        "updated_at": "2023-09-14T09:46:38.577Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "e696c162-36f1-4145-9ab0-60f52449acec",
+        "order_type": "In-Store Order",
+        "status": "Delivered",
+        "created_at": "2023-09-14T22:46:04.546Z",
+        "updated_at": "2023-09-15T02:31:33.612Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "e48df200-8923-42ea-8afa-4e758adb5e84",
+        "order_type": "Custom Order",
+        "status": "Cancelled",
+        "created_at": "2023-09-15T00:13:21.392Z",
+        "updated_at": "2023-09-14T08:50:56.369Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "c0095562-d775-46f3-8984-c6992be53e76",
+        "order_type": "Express Order",
+        "status": "Returned",
+        "created_at": "2023-09-14T05:48:52.244Z",
+        "updated_at": "2023-09-14T05:45:42.594Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "583713f8-90ce-4a16-aec5-38dafdb538ec",
+        "email": "Dorris90@yahoo.com",
+        "firstName": "Clark",
+        "lastName": "White",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69921149",
+        "tenantId": null
+      },
+      {
+        "reference": "5bb2b051-8578-44c5-83bb-fe3e41ac2206",
+        "email": "Cristopher_Swaniawski92@yahoo.com",
+        "firstName": "Ignacio",
+        "lastName": "Luettgen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/856.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f7887079-0552-42e6-b6c9-fe8d525ee32e",
+        "email": "Jacinthe25@yahoo.com",
+        "firstName": "Rhea",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79541632",
+        "tenantId": null
+      },
+      {
+        "reference": "fa1b00d6-0860-436c-82c7-b19fddad515f",
+        "email": "Della_Schumm55@yahoo.com",
+        "firstName": "Corrine",
+        "lastName": "Wiegand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46241671",
+        "tenantId": null
+      },
+      {
+        "reference": "db24d107-6b13-454f-876e-b9dc7c46d863",
+        "email": "Alejandra47@gmail.com",
+        "firstName": "Catharine",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46598981",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "f58b9319-009b-46aa-9391-60e727a4b79e",
+        "task_type": "Cleaning",
+        "status": "Pending",
+        "created_at": "2023-09-14T21:02:52.054Z",
+        "updated_at": "2023-09-14T21:02:45.614Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "f47aff59-24d8-4e54-ae9c-784acfb4a322",
+        "task_type": "Repair",
+        "status": "Completed",
+        "created_at": "2023-09-14T21:18:16.304Z",
+        "updated_at": "2023-09-14T15:09:41.710Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "ac1d54c6-06c2-408c-8fbd-4be0641059cb",
+        "task_type": "Installation",
+        "status": "In Progress",
+        "created_at": "2023-09-14T08:14:22.466Z",
+        "updated_at": "2023-09-14T18:10:29.008Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "b5c97b07-136d-4d4e-b936-d679bd871854",
+        "task_type": "Maintenance",
+        "status": "Cancelled",
+        "created_at": "2023-09-14T22:56:32.707Z",
+        "updated_at": "2023-09-15T00:31:06.149Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "6c5ca380-05bc-4e0d-9e3a-a9ebc296bffa",
+        "task_type": "Consultation",
+        "status": "On Hold",
+        "created_at": "2023-09-14T16:02:56.500Z",
+        "updated_at": "2023-09-14T18:27:28.951Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "service_rate": [
+      {
+        "id": "e9305ec2-64b6-409c-ad8d-62b2776d748a",
+        "service_type": "Hourly",
+        "rate": 92572,
+        "created_at": "2023-09-15T03:10:25.722Z",
+        "updated_at": "2023-09-14T06:05:53.302Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "61c7d786-9bc7-4149-accd-9721e2ccb116",
+        "service_type": "Fixed",
+        "rate": 17487,
+        "created_at": "2023-09-14T07:00:01.653Z",
+        "updated_at": "2023-09-14T21:14:24.878Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "42b5eecc-ace3-4a70-990e-26529507cf5a",
+        "service_type": "Per Project",
+        "rate": 34238,
+        "created_at": "2023-09-14T08:03:50.071Z",
+        "updated_at": "2023-09-15T03:51:15.604Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "9289a113-075a-45b4-a8f2-c220c4f377ab",
+        "service_type": "Monthly",
+        "rate": 50067,
+        "created_at": "2023-09-14T16:19:43.817Z",
+        "updated_at": "2023-09-14T18:40:23.565Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "8e2c52ba-61b0-4996-949f-a58e6056a496",
+        "service_type": "Weekly",
+        "rate": 22646,
+        "created_at": "2023-09-15T02:01:35.149Z",
+        "updated_at": "2023-09-14T14:58:04.982Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "8f6e96b6-46e9-48ab-9065-4dec1675f448",
+        "name": "Product A",
+        "description": "High-quality and durable product",
+        "created_at": "2023-09-14T21:13:17.715Z",
+        "updated_at": "2023-09-14T12:23:58.258Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "f911c67c-dea5-4a40-84ad-d09bf2c67ed9",
+        "name": "Product B",
+        "description": "Innovative and user-friendly product",
+        "created_at": "2023-09-14T16:08:04.068Z",
+        "updated_at": "2023-09-15T03:03:20.066Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "8bc9c496-9e04-43f9-bc6b-644ce5c8e9f2",
+        "name": "Product C",
+        "description": "Versatile and stylish product",
+        "created_at": "2023-09-15T02:52:16.300Z",
+        "updated_at": "2023-09-14T23:01:26.028Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "15d75d44-022a-4606-ae69-ef06983c50fa",
+        "name": "Product D",
+        "description": "Reliable and efficient product",
+        "created_at": "2023-09-14T11:09:10.668Z",
+        "updated_at": "2023-09-14T11:04:14.525Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "f602e62e-7051-452d-93b2-755df56b6291",
+        "name": "Product E",
+        "description": "Eco-friendly and sustainable product",
+        "created_at": "2023-09-14T17:21:04.388Z",
+        "updated_at": "2023-09-14T22:40:17.318Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "9a8350b6-1598-4b74-bdd4-eb6074c3b47a",
+        "order_type": "Online",
+        "status": "Processing",
+        "created_at": "2023-09-14T21:59:53.940Z",
+        "updated_at": "2023-09-14T06:38:23.029Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "4d99dfb3-434e-4e21-a066-877c78923cbf",
+        "order_type": "Phone",
+        "status": "Shipped",
+        "created_at": "2023-09-14T09:37:27.420Z",
+        "updated_at": "2023-09-14T21:00:18.439Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "61fe4de7-6c1b-41a2-be79-ec427cf3b0f7",
+        "order_type": "In-store",
+        "status": "Delivered",
+        "created_at": "2023-09-15T02:50:55.937Z",
+        "updated_at": "2023-09-14T13:15:57.230Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "cc771892-72ae-4942-b43a-db1297a34a79",
+        "order_type": "Mobile App",
+        "status": "Cancelled",
+        "created_at": "2023-09-14T17:31:52.035Z",
+        "updated_at": "2023-09-15T03:20:19.241Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "0093501d-8eb4-47ae-9334-0fa4776c656a",
+        "order_type": "Email",
+        "status": "Returned",
+        "created_at": "2023-09-14T12:47:38.041Z",
+        "updated_at": "2023-09-14T08:25:48.129Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7a9f70e9-ec38-4b3e-94a2-ce866d153ced",
+        "email": "Pascale_Lueilwitz@gmail.com",
+        "firstName": "Laverna",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/408.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "02eedd2c-76f9-44f9-8289-baa78e5c4218",
+        "email": "Anna.Wehner79@gmail.com",
+        "firstName": "Deondre",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1175.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a8aae0f7-8464-4790-9048-576d8d098687",
+        "email": "Stefanie.Kassulke63@hotmail.com",
+        "firstName": "Curtis",
+        "lastName": "Gleason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55121307",
+        "tenantId": null
+      },
+      {
+        "reference": "d72167d8-85cc-4fb8-811c-9368300ba836",
+        "email": "Julian_Koss@hotmail.com",
+        "firstName": "Webster",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/156.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6a86ee38-ca2e-48b9-9ab4-2616f07010c4",
+        "email": "Adam_Brown@yahoo.com",
+        "firstName": "Kiley",
+        "lastName": "Ledner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92447968",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "1c03ab82-a350-49cb-b19d-0820b31c139d",
+        "task_type": "Cleaning",
+        "status": "Pending",
+        "created_at": "2023-09-14T07:51:50.390Z",
+        "updated_at": "2023-09-14T18:34:06.298Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "761b8983-47cf-4c33-8377-e97230096e73",
+        "task_type": "Repair",
+        "status": "In Progress",
+        "created_at": "2023-09-14T10:47:13.193Z",
+        "updated_at": "2023-09-14T07:55:16.843Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "03d4c050-e36c-4e43-9c05-2389e6b77cbb",
+        "task_type": "Installation",
+        "status": "Completed",
+        "created_at": "2023-09-14T07:05:30.642Z",
+        "updated_at": "2023-09-14T18:54:22.080Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "f2749814-c5ab-4afa-93a2-0a98439922e1",
+        "task_type": "Maintenance",
+        "status": "Cancelled",
+        "created_at": "2023-09-14T05:01:16.768Z",
+        "updated_at": "2023-09-14T19:48:00.929Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "cbef50c6-fe16-4596-85a5-48cbe742136f",
+        "task_type": "Consultation",
+        "status": "On Hold",
+        "created_at": "2023-09-15T02:43:58.496Z",
+        "updated_at": "2023-09-14T06:14:12.693Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "service_rate": [
+      {
+        "id": "a5945232-8161-46bc-ae15-e3f05d15ea64",
+        "service_type": "Hourly",
+        "rate": 23325,
+        "created_at": "2023-09-14T09:14:39.662Z",
+        "updated_at": "2023-09-14T07:46:16.741Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "56d95ba9-55b8-4e0c-a17b-8bdb4bcbca4c",
+        "service_type": "Fixed Rate",
+        "rate": 36817,
+        "created_at": "2023-09-14T22:51:41.897Z",
+        "updated_at": "2023-09-14T23:31:39.750Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "ad30fd87-6d8a-4361-a462-634b19f6122a",
+        "service_type": "Per Visit",
+        "rate": 19452,
+        "created_at": "2023-09-14T14:03:02.714Z",
+        "updated_at": "2023-09-14T21:01:26.831Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "3b185337-3d9a-4815-86fd-a4a70b800ac7",
+        "service_type": "Monthly",
+        "rate": 35360,
+        "created_at": "2023-09-14T13:56:07.539Z",
+        "updated_at": "2023-09-14T13:03:58.790Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "8237e65a-ed32-4652-a274-ff4a809d2ffc",
+        "service_type": "Project-based",
+        "rate": 73458,
+        "created_at": "2023-09-14T11:24:33.770Z",
+        "updated_at": "2023-09-14T14:55:51.326Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "4d321c86-561a-4af9-a52d-f70a31dfaebf",
+        "name": "Product A",
+        "description": "High-quality product",
+        "created_at": "2023-09-14T08:42:43.648Z",
+        "updated_at": "2023-09-15T01:21:55.541Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "d2ccf0b9-eab9-466e-9475-04a10ab9de57",
+        "name": "Product B",
+        "description": "Durable and reliable",
+        "created_at": "2023-09-14T14:39:54.122Z",
+        "updated_at": "2023-09-14T07:28:12.523Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "304900fc-0234-44b5-8a0d-4d1aea6890b5",
+        "name": "Product C",
+        "description": "Innovative design",
+        "created_at": "2023-09-14T14:45:58.869Z",
+        "updated_at": "2023-09-14T10:34:43.587Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "c2a46061-adb4-416f-a0b3-fbf9c1a88e42",
+        "name": "Product D",
+        "description": "Versatile functionality",
+        "created_at": "2023-09-14T15:51:27.832Z",
+        "updated_at": "2023-09-14T21:33:44.750Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "eb0f2360-7891-4007-ac6b-84c2c66f1d9f",
+        "name": "Product E",
+        "description": "Exceptional performance",
+        "created_at": "2023-09-14T16:33:07.139Z",
+        "updated_at": "2023-09-14T13:18:22.819Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "67754f33-89b3-42b4-bbd0-41649140fd4c",
+        "order_type": "Online",
+        "status": "Processing",
+        "created_at": "2023-09-14T19:55:57.311Z",
+        "updated_at": "2023-09-15T02:58:13.607Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "cfd6665f-5bae-48c7-be15-7b5bcf7ba4bf",
+        "order_type": "Phone",
+        "status": "Shipped",
+        "created_at": "2023-09-14T12:58:52.125Z",
+        "updated_at": "2023-09-14T13:18:33.228Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "e3eed7c2-df52-4e3b-a411-939251b6e03f",
+        "order_type": "In-store",
+        "status": "Delivered",
+        "created_at": "2023-09-15T01:45:27.574Z",
+        "updated_at": "2023-09-14T21:51:15.367Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "c99d5aa8-28a6-4671-bea9-146ff5a3112f",
+        "order_type": "Customized",
+        "status": "Cancelled",
+        "created_at": "2023-09-14T17:52:47.800Z",
+        "updated_at": "2023-09-14T17:23:15.713Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "d5ee874e-e3d5-498f-99fd-68497e180d66",
+        "order_type": "Express",
+        "status": "Returned",
+        "created_at": "2023-09-14T06:13:15.784Z",
+        "updated_at": "2023-09-15T03:34:55.344Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c35697bf-5572-48d7-bb1c-4d3750ce13d1",
+        "email": "Breanne81@hotmail.com",
+        "firstName": "Josh",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1067.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "12c411d1-04c9-4739-99bd-b9a7f71e6e99",
+        "email": "Osborne86@yahoo.com",
+        "firstName": "Yessenia",
+        "lastName": "Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62284234",
+        "tenantId": null
+      },
+      {
+        "reference": "9b175231-4e09-47b5-80fe-6fbe34d57d9a",
+        "email": "Daniela_Kassulke@hotmail.com",
+        "firstName": "Judson",
+        "lastName": "Kshlerin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/253.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "77ce5e82-77c6-47e6-a803-05eb4c7d87e0",
+        "email": "Gabriel.Hansen98@yahoo.com",
+        "firstName": "Marcellus",
+        "lastName": "Boyer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/834.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "38a35577-f41f-487e-8065-5dba1c9252ca",
+        "email": "Sylvester_Connelly@yahoo.com",
+        "firstName": "Augustus",
+        "lastName": "Jacobs",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49838991",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "f5b87106-3dd3-466c-b1c6-d95a303fdae0",
+        "task_type": "Cleaning",
+        "status": "Pending",
+        "created_at": "2023-09-15T03:25:03.237Z",
+        "updated_at": "2023-09-14T22:42:06.960Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "5b85d385-446d-497b-b149-ab7982ce27e7",
+        "task_type": "Repair",
+        "status": "In Progress",
+        "created_at": "2023-09-14T12:11:35.434Z",
+        "updated_at": "2023-09-14T17:17:32.857Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "aa4daba5-406a-48c7-90a3-8aebd6c0c1b1",
+        "task_type": "Installation",
+        "status": "Completed",
+        "created_at": "2023-09-15T04:12:30.159Z",
+        "updated_at": "2023-09-14T20:43:47.223Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "be4d5930-73ce-4fee-95f8-2b3f9a776647",
+        "task_type": "Maintenance",
+        "status": "On Hold",
+        "created_at": "2023-09-15T02:47:02.801Z",
+        "updated_at": "2023-09-15T04:34:56.190Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "40308b3d-195d-45f0-961b-f7c507f92b4d",
+        "task_type": "Consultation",
+        "status": "Cancelled",
+        "created_at": "2023-09-14T19:24:14.552Z",
+        "updated_at": "2023-09-14T15:06:47.089Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "service_rate": [
+      {
+        "id": "189c59d2-5619-4e6a-80d0-58ae3efe97a4",
+        "service_type": "Hourly",
+        "rate": 67961,
+        "created_at": "2023-09-14T07:13:57.702Z",
+        "updated_at": "2023-09-15T04:15:15.956Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "a4b9d6b8-cef2-428c-ba3f-19fd5e81ae59",
+        "service_type": "Fixed",
+        "rate": 79341,
+        "created_at": "2023-09-15T00:24:54.655Z",
+        "updated_at": "2023-09-14T14:27:41.607Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "9dc65e7c-0690-449e-a98e-e16c42e8881d",
+        "service_type": "Per Project",
+        "rate": 59435,
+        "created_at": "2023-09-14T06:48:36.475Z",
+        "updated_at": "2023-09-15T04:14:28.180Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "cef3e8bd-042d-47a8-823e-5399b4ad2c14",
+        "service_type": "Monthly",
+        "rate": 47601,
+        "created_at": "2023-09-14T22:36:39.903Z",
+        "updated_at": "2023-09-14T17:10:13.744Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "f3121ef9-3136-4749-8c63-80bc3ef8c375",
+        "service_type": "Annual",
+        "rate": 608,
+        "created_at": "2023-09-14T12:14:42.029Z",
+        "updated_at": "2023-09-14T22:04:29.045Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "bee6663c-ee67-45b0-b345-1b4d53ee3231",
+        "name": "Product A",
+        "description": "High-quality and durable",
+        "created_at": "2023-09-14T19:49:33.645Z",
+        "updated_at": "2023-09-14T17:38:15.928Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "59a837e9-cad5-45de-aac8-c6245ed78cde",
+        "name": "Product B",
+        "description": "Innovative features",
+        "created_at": "2023-09-14T10:16:50.782Z",
+        "updated_at": "2023-09-14T21:35:22.958Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "cbec3c7b-b002-4e40-add2-03b0b62211f4",
+        "name": "Product C",
+        "description": "Sleek and modern design",
+        "created_at": "2023-09-14T17:04:37.977Z",
+        "updated_at": "2023-09-14T21:20:16.128Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "dbf3cf47-fe6b-448c-8bee-bec9aad74e70",
+        "name": "Product D",
+        "description": "Versatile and multi-functional",
+        "created_at": "2023-09-14T11:40:27.424Z",
+        "updated_at": "2023-09-14T21:09:54.486Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "73ed9cdd-f270-416f-93dc-abc39352a619",
+        "name": "Product E",
+        "description": "Eco-friendly and sustainable",
+        "created_at": "2023-09-14T15:26:45.667Z",
+        "updated_at": "2023-09-15T04:06:12.735Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "ee158fdd-7450-4a39-97bb-1ad86290060d",
+        "order_type": "Online",
+        "status": "Pending",
+        "created_at": "2023-09-14T14:26:28.026Z",
+        "updated_at": "2023-09-15T00:48:15.520Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "28c4c7e0-a477-4042-b147-bf3300ef0ced",
+        "order_type": "Phone",
+        "status": "Processing",
+        "created_at": "2023-09-14T09:33:53.389Z",
+        "updated_at": "2023-09-14T16:50:25.009Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "12a963c2-62f0-48d6-a776-409623faa57c",
+        "order_type": "In-person",
+        "status": "Shipped",
+        "created_at": "2023-09-14T10:05:07.923Z",
+        "updated_at": "2023-09-14T14:48:01.873Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "18dd067c-711f-484e-87b7-f4ed40b8cb0b",
+        "order_type": "Mobile App",
+        "status": "Delivered",
+        "created_at": "2023-09-14T23:31:05.896Z",
+        "updated_at": "2023-09-14T15:05:16.400Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "6eefd5eb-7a86-497f-8f25-a42bf822d565",
+        "order_type": "Email",
+        "status": "Cancelled",
+        "created_at": "2023-09-14T20:08:24.627Z",
+        "updated_at": "2023-09-15T04:09:08.570Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7b173d71-45c1-471d-9bb2-a0f1432bb709",
+        "email": "Bertram_Schulist@gmail.com",
+        "firstName": "Javonte",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9521726",
+        "tenantId": null
+      },
+      {
+        "reference": "88b09ad5-4e5a-48b9-95be-9ee8e68bea58",
+        "email": "Ben88@yahoo.com",
+        "firstName": "Max",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39438782",
+        "tenantId": null
+      },
+      {
+        "reference": "89a24e26-7861-4a14-bc76-d5e72868156d",
+        "email": "Abbigail.Anderson9@yahoo.com",
+        "firstName": "Miracle",
+        "lastName": "Langosh",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33419138",
+        "tenantId": null
+      },
+      {
+        "reference": "c0e18262-6cd6-4991-90b1-65c3be18ca3a",
+        "email": "Brant_Schamberger@gmail.com",
+        "firstName": "Karley",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37058778",
+        "tenantId": null
+      },
+      {
+        "reference": "2d47bbc5-269e-4dc2-b352-cb32d83b77ba",
+        "email": "Joanie.Cormier-Nitzsche95@hotmail.com",
+        "firstName": "Ressie",
+        "lastName": "Cole",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/535.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "8d3442e9-7304-42a4-a5ff-8daee57b0855",
+        "task_type": "Cleaning",
+        "status": "Pending",
+        "created_at": "2023-09-14T13:33:02.147Z",
+        "updated_at": "2023-09-14T16:35:36.705Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "aa5ef70c-8cb7-4149-8c77-c135b27f8ab1",
+        "task_type": "Repair",
+        "status": "In Progress",
+        "created_at": "2023-09-14T06:21:31.262Z",
+        "updated_at": "2023-09-14T21:51:29.173Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "4dd83df4-3143-4765-aa5d-50d2fd92ffba",
+        "task_type": "Installation",
+        "status": "Completed",
+        "created_at": "2023-09-14T19:04:00.135Z",
+        "updated_at": "2023-09-15T03:50:52.868Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "e5eaf711-31ad-4d56-b4a8-2634f3a6ebb5",
+        "task_type": "Maintenance",
+        "status": "Cancelled",
+        "created_at": "2023-09-14T08:16:18.414Z",
+        "updated_at": "2023-09-14T12:02:25.852Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "b71afdd0-9278-4aed-96e2-a8cfc93ad766",
+        "task_type": "Consultation",
+        "status": "On Hold",
+        "created_at": "2023-09-14T13:35:43.384Z",
+        "updated_at": "2023-09-14T14:01:23.195Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "service_rate": [
+      {
+        "id": "0cb190ae-66c6-4361-83ee-7c4af38b879d",
+        "service_type": "Hourly",
+        "rate": 96258,
+        "created_at": "2023-09-14T17:26:45.858Z",
+        "updated_at": "2023-09-14T10:27:13.776Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "f6d5d772-39b2-4462-b81e-2187055c2214",
+        "service_type": "Fixed Rate",
+        "rate": 40223,
+        "created_at": "2023-09-14T09:17:34.031Z",
+        "updated_at": "2023-09-15T02:39:06.274Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "844aba28-00b8-4405-b788-56c02c5c2798",
+        "service_type": "Per Visit",
+        "rate": 74094,
+        "created_at": "2023-09-15T04:22:33.704Z",
+        "updated_at": "2023-09-14T11:08:33.601Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "ec19842d-deb6-481e-8ace-50be8a8673ae",
+        "service_type": "Monthly Subscription",
+        "rate": 9103,
+        "created_at": "2023-09-14T10:09:56.970Z",
+        "updated_at": "2023-09-14T17:05:02.089Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "9fd21c31-6fd9-4b6e-b165-2fbe1a12eff5",
+        "service_type": "Project-based",
+        "rate": 91709,
+        "created_at": "2023-09-14T16:28:17.926Z",
+        "updated_at": "2023-09-14T11:31:11.384Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "95593013-d5ba-4df8-8f6a-59a867a148a1",
+        "name": "Product A",
+        "description": "High-quality and durable",
+        "created_at": "2023-09-14T19:59:56.061Z",
+        "updated_at": "2023-09-14T21:49:34.004Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "f14dfbe5-bff0-45e5-8e94-ad74cb33e01b",
+        "name": "Product B",
+        "description": "Innovative and user-friendly",
+        "created_at": "2023-09-14T10:38:30.637Z",
+        "updated_at": "2023-09-14T06:24:43.876Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "76940bee-446b-448a-bfcf-68029ec5adc8",
+        "name": "Product C",
+        "description": "Versatile and multi-functional",
+        "created_at": "2023-09-14T05:18:28.141Z",
+        "updated_at": "2023-09-14T22:32:54.991Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "ec684c7e-b7ff-4226-9108-be0460c3262b",
+        "name": "Product D",
+        "description": "Elegant and stylish",
+        "created_at": "2023-09-14T05:22:07.971Z",
+        "updated_at": "2023-09-14T23:48:30.002Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "4bb82173-a0d1-402d-ac74-975eb83d4691",
+        "name": "Product E",
+        "description": "Reliable and efficient",
+        "created_at": "2023-09-14T09:07:17.021Z",
+        "updated_at": "2023-09-14T20:48:00.538Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "84b37f11-fc7b-4456-aac0-5440893911e8",
+        "order_type": "Online",
+        "status": "Processing",
+        "created_at": "2023-09-15T04:41:01.293Z",
+        "updated_at": "2023-09-14T18:12:05.705Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "04584e11-1311-4679-9fe9-8790ac61426e",
+        "order_type": "Phone",
+        "status": "Shipped",
+        "created_at": "2023-09-14T06:13:14.761Z",
+        "updated_at": "2023-09-14T21:37:27.227Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "9cb2336c-c8c5-4213-9122-05f508a69fb0",
+        "order_type": "In-store",
+        "status": "Delivered",
+        "created_at": "2023-09-15T01:14:30.392Z",
+        "updated_at": "2023-09-14T20:59:32.603Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "f8af5a03-0a1c-487d-a473-0e9e9972da4e",
+        "order_type": "Custom",
+        "status": "Cancelled",
+        "created_at": "2023-09-14T20:59:22.436Z",
+        "updated_at": "2023-09-14T19:29:15.584Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "d15d6e8b-c727-42d3-a641-7b6ea34bd3e0",
+        "order_type": "Bulk",
+        "status": "Returned",
+        "created_at": "2023-09-14T22:40:54.792Z",
+        "updated_at": "2023-09-14T14:45:28.947Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "04b27f97-c5e3-4d20-af9b-5e46ae3f0e75",
+        "email": "Brendan_Senger@gmail.com",
+        "firstName": "Bert",
+        "lastName": "Torphy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/727.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "13bd80a0-9914-4853-9096-e87f07f5ffb8",
+        "email": "Mable37@yahoo.com",
+        "firstName": "Nicklaus",
+        "lastName": "Thompson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1135.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2775d856-533f-49b8-ad95-31ba9f542ec5",
+        "email": "Garnett.Kessler61@yahoo.com",
+        "firstName": "Sarai",
+        "lastName": "Brakus",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44557574",
+        "tenantId": null
+      },
+      {
+        "reference": "3257bfb4-6754-45e1-bd18-d37a379d4e5f",
+        "email": "Precious_Bergnaum72@gmail.com",
+        "firstName": "Birdie",
+        "lastName": "Conn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40221527",
+        "tenantId": null
+      },
+      {
+        "reference": "ad855e68-cadf-4e6b-9fff-2073edf85dc1",
+        "email": "Margarett_OReilly@gmail.com",
+        "firstName": "Ollie",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51792302",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "ac6a8421-ad92-4906-b5cf-92113e95ae74",
+        "task_type": "Cleaning",
+        "status": "Pending",
+        "created_at": "2023-09-14T12:41:40.895Z",
+        "updated_at": "2023-09-14T20:12:31.717Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "c1866a0b-f8f8-4639-89e1-6981c2d46298",
+        "task_type": "Repair",
+        "status": "In Progress",
+        "created_at": "2023-09-15T03:09:39.274Z",
+        "updated_at": "2023-09-15T00:14:56.087Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "af6415c5-c34c-476e-a08b-4182777df2f1",
+        "task_type": "Installation",
+        "status": "Completed",
+        "created_at": "2023-09-14T09:40:48.909Z",
+        "updated_at": "2023-09-14T18:24:14.592Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "e0b829b2-32e5-40b4-a4f3-866d0d137d3f",
+        "task_type": "Maintenance",
+        "status": "On Hold",
+        "created_at": "2023-09-14T09:27:50.843Z",
+        "updated_at": "2023-09-14T13:57:22.653Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "d7e192a8-d727-45d9-9884-1c869c7f34b6",
+        "task_type": "Consultation",
+        "status": "Cancelled",
+        "created_at": "2023-09-14T15:46:27.321Z",
+        "updated_at": "2023-09-14T09:41:02.574Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "service_rate": [
+      {
+        "id": "101db68f-f1d6-4acb-97d9-810ec39d6eea",
+        "service_type": "Hourly",
+        "rate": 88441,
+        "created_at": "2023-09-15T03:43:13.191Z",
+        "updated_at": "2023-09-14T20:08:32.060Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "c057d88f-31bc-446f-ac92-5fc68ecac4c5",
+        "service_type": "Fixed Rate",
+        "rate": 6002,
+        "created_at": "2023-09-14T21:11:50.380Z",
+        "updated_at": "2023-09-14T17:25:28.635Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "0bb7b6b5-753d-4e8c-9ab1-87f96f4d1a11",
+        "service_type": "Per Project",
+        "rate": 44436,
+        "created_at": "2023-09-14T07:42:30.983Z",
+        "updated_at": "2023-09-14T07:35:54.543Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "647ef576-f3ac-40dd-9433-038c149fe103",
+        "service_type": "Monthly Retainer",
+        "rate": 43534,
+        "created_at": "2023-09-14T15:20:05.965Z",
+        "updated_at": "2023-09-14T20:42:06.780Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "0144fc1f-ec52-4bb8-b5cf-87af96de74f9",
+        "service_type": "Pay as You Go",
+        "rate": 50921,
+        "created_at": "2023-09-14T21:13:45.552Z",
+        "updated_at": "2023-09-14T12:27:06.177Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "76d6f4a3-1704-49bf-ac0c-21df617c9f63",
+        "name": "Product A",
+        "description": "High-quality product",
+        "created_at": "2023-09-15T03:07:36.256Z",
+        "updated_at": "2023-09-14T17:41:11.794Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "da1f2909-2114-4ece-aa5c-984d40cc6dff",
+        "name": "Product B",
+        "description": "Versatile product",
+        "created_at": "2023-09-15T04:16:55.152Z",
+        "updated_at": "2023-09-14T19:20:18.024Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "5f63e175-8eb2-404f-9a20-931625845f71",
+        "name": "Product C",
+        "description": "Innovative solution",
+        "created_at": "2023-09-15T02:44:17.189Z",
+        "updated_at": "2023-09-14T04:55:34.149Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "a581c059-1b10-4f97-86f3-87a1a3cea16c",
+        "name": "Product D",
+        "description": "Durable and reliable",
+        "created_at": "2023-09-14T22:44:31.866Z",
+        "updated_at": "2023-09-14T11:03:47.741Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "b3e7e385-9f4a-4a32-ba29-c116f1e24f14",
+        "name": "Product E",
+        "description": "Cutting-edge technology",
+        "created_at": "2023-09-14T21:49:06.047Z",
+        "updated_at": "2023-09-14T14:30:46.828Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "cacd9f9d-5331-4b45-885e-93429ad10dd5",
+        "order_type": "Online",
+        "status": "Pending",
+        "created_at": "2023-09-14T09:54:57.567Z",
+        "updated_at": "2023-09-14T19:18:31.422Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "14f1ff4a-28dc-4da0-8f8d-f3f1619fd749",
+        "order_type": "Phone",
+        "status": "Processing",
+        "created_at": "2023-09-14T10:09:40.574Z",
+        "updated_at": "2023-09-14T17:48:21.151Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "03d50f70-5efd-4673-95fa-1b50848060a8",
+        "order_type": "In-person",
+        "status": "Shipped",
+        "created_at": "2023-09-14T08:47:43.640Z",
+        "updated_at": "2023-09-15T04:31:11.637Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "e5cb3e7b-b9e9-4ad7-80d8-bb3178f27db1",
+        "order_type": "Email",
+        "status": "Delivered",
+        "created_at": "2023-09-14T12:52:13.937Z",
+        "updated_at": "2023-09-14T19:47:56.352Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "4a0ead52-5db2-4210-8ed9-de75dba68059",
+        "order_type": "Mobile App",
+        "status": "Cancelled",
+        "created_at": "2023-09-15T03:48:43.000Z",
+        "updated_at": "2023-09-14T20:40:31.588Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b7c85059-83f3-4952-874b-8cca4cdc6af3",
+        "email": "Jamison.Fay71@yahoo.com",
+        "firstName": "Bridie",
+        "lastName": "Hoeger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/739.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "330bede7-aa6f-4424-930c-99063eaa86b1",
+        "email": "Zakary25@hotmail.com",
+        "firstName": "Theodore",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/748.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bcaf66a4-d449-4f4c-8be2-65396fa256b5",
+        "email": "Esperanza41@yahoo.com",
+        "firstName": "Karl",
+        "lastName": "Fahey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35360058",
+        "tenantId": null
+      },
+      {
+        "reference": "85650541-a9c9-45c5-b29a-e90c0b11628a",
+        "email": "Tre.Boehm@gmail.com",
+        "firstName": "Thaddeus",
+        "lastName": "Ledner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22395675",
+        "tenantId": null
+      },
+      {
+        "reference": "c85bda53-ca00-4553-b723-ed0392f49236",
+        "email": "Milan74@yahoo.com",
+        "firstName": "Pierre",
+        "lastName": "Romaguera",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1025.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "25a7ff4b-8ff3-4f7a-b9c8-10e1ee3bdc43",
+        "task_type": "Cleaning",
+        "status": "Pending",
+        "created_at": "2023-09-14T13:56:55.334Z",
+        "updated_at": "2023-09-14T11:26:58.334Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "238bacc2-a2c8-4793-b6d5-6b9c13474ee4",
+        "task_type": "Repair",
+        "status": "In Progress",
+        "created_at": "2023-09-15T01:22:00.812Z",
+        "updated_at": "2023-09-14T06:35:19.354Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "badfe982-7b6c-436c-b64a-efc5d3f5025e",
+        "task_type": "Installation",
+        "status": "Completed",
+        "created_at": "2023-09-14T14:46:09.321Z",
+        "updated_at": "2023-09-14T05:48:26.791Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "87f8a80c-905d-4df5-a2a0-0f960e72f586",
+        "task_type": "Maintenance",
+        "status": "Cancelled",
+        "created_at": "2023-09-14T21:43:28.492Z",
+        "updated_at": "2023-09-14T06:12:43.792Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "3a17fedd-41c5-447e-a8c4-ed56c14c3870",
+        "task_type": "Consultation",
+        "status": "On Hold",
+        "created_at": "2023-09-14T09:27:25.359Z",
+        "updated_at": "2023-09-15T02:35:31.428Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "service_rate": [
+      {
+        "id": "dbe05ecf-9a1a-45bc-89cb-a6b613af02cd",
+        "service_type": "Hourly",
+        "rate": 66233,
+        "created_at": "2023-09-14T06:22:40.079Z",
+        "updated_at": "2023-09-14T12:39:25.905Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "40c5155e-8404-4b73-9af3-7221092dc992",
+        "service_type": "Fixed Rate",
+        "rate": 81335,
+        "created_at": "2023-09-14T10:55:14.516Z",
+        "updated_at": "2023-09-15T03:46:37.586Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "269419fa-891b-428b-9cae-fe1f4c76c080",
+        "service_type": "Per Visit",
+        "rate": 96035,
+        "created_at": "2023-09-14T19:37:53.253Z",
+        "updated_at": "2023-09-14T07:23:21.898Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "c7b0aef9-2a09-4e00-9c3d-688c9bc2724d",
+        "service_type": "Monthly Subscription",
+        "rate": 66847,
+        "created_at": "2023-09-14T22:12:59.639Z",
+        "updated_at": "2023-09-14T13:56:29.489Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "c02131a0-7ae0-4889-a076-d9a84dadd4b0",
+        "service_type": "Project-based",
+        "rate": 56227,
+        "created_at": "2023-09-15T01:36:15.830Z",
+        "updated_at": "2023-09-14T20:35:16.207Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "f6a9ec1b-6bb9-4329-acff-917fb48f97cb",
+        "name": "Product A",
+        "description": "High-quality product",
+        "created_at": "2023-09-14T12:25:48.752Z",
+        "updated_at": "2023-09-14T23:15:43.577Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "a8d6b409-567e-4729-a1f6-17f524a20418",
+        "name": "Product B",
+        "description": "Innovative solution",
+        "created_at": "2023-09-14T17:44:02.197Z",
+        "updated_at": "2023-09-14T09:48:00.855Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "f451e608-292e-436f-b1c0-adfe55685d81",
+        "name": "Product C",
+        "description": "Durable and reliable",
+        "created_at": "2023-09-14T07:38:35.141Z",
+        "updated_at": "2023-09-15T03:46:13.688Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "317c8996-29c5-4acb-905c-d69ff80c1879",
+        "name": "Product D",
+        "description": "Versatile functionality",
+        "created_at": "2023-09-14T18:30:27.164Z",
+        "updated_at": "2023-09-14T10:00:05.878Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "88996fe8-ed19-4260-b6ab-c9a8dbcae667",
+        "name": "Product E",
+        "description": "Sleek design",
+        "created_at": "2023-09-14T16:37:14.814Z",
+        "updated_at": "2023-09-14T12:35:36.919Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "cdb979ba-925c-4f31-bf87-9ddb1b3aa497",
+        "order_type": "Online",
+        "status": "Pending",
+        "created_at": "2023-09-14T20:00:18.927Z",
+        "updated_at": "2023-09-14T06:54:00.292Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "4c6fa484-f0fb-43b0-be2f-17bb6b0b8fc0",
+        "order_type": "Phone",
+        "status": "Processing",
+        "created_at": "2023-09-14T05:13:16.831Z",
+        "updated_at": "2023-09-14T07:56:04.992Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "41ba6d8a-0c33-41c8-950a-e9ce2d4c0866",
+        "order_type": "In-person",
+        "status": "Shipped",
+        "created_at": "2023-09-14T17:30:33.733Z",
+        "updated_at": "2023-09-14T20:56:45.814Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "93addb56-cc0d-4708-be37-492eb30be15b",
+        "order_type": "Email",
+        "status": "Delivered",
+        "created_at": "2023-09-14T09:00:35.530Z",
+        "updated_at": "2023-09-14T17:09:48.445Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "3d4b7453-0854-40a4-a944-2661852efb2b",
+        "order_type": "Mobile App",
+        "status": "Cancelled",
+        "created_at": "2023-09-14T19:12:44.684Z",
+        "updated_at": "2023-09-15T04:42:04.847Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "28837a20-724f-4073-a3e5-13570f6fd2c7",
+        "email": "Raphaelle.Hettinger@gmail.com",
+        "firstName": "Alexandro",
+        "lastName": "D'Amore",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1062.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "524e41a6-fb2c-4714-8406-f1a9b2e6251b",
+        "email": "Donnell.Kautzer46@hotmail.com",
+        "firstName": "Kareem",
+        "lastName": "Treutel-Mann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1210.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ea8d578e-7e7c-4eda-b6ab-fd182fb12d25",
+        "email": "Danny_Balistreri@yahoo.com",
+        "firstName": "Louisa",
+        "lastName": "Senger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/161.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bd0079f4-7131-4bc0-befb-bf5b3bddb055",
+        "email": "Mohamed34@hotmail.com",
+        "firstName": "Idella",
+        "lastName": "Erdman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/744.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4066af9a-f7f0-44cb-b1d9-706e20545095",
+        "email": "Javon.Murray@yahoo.com",
+        "firstName": "Kadin",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/511.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "55706868-9e29-449d-a6f5-4419fe4335dd",
+        "task_type": "Cleaning",
+        "status": "Pending",
+        "created_at": "2023-09-14T16:30:55.600Z",
+        "updated_at": "2023-09-14T09:19:54.712Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "6765c263-d86e-4fa1-ab6b-2c2c83322b1f",
+        "task_type": "Repair",
+        "status": "In Progress",
+        "created_at": "2023-09-14T05:41:13.163Z",
+        "updated_at": "2023-09-14T10:02:51.820Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "9b4deb61-8d97-46e7-89df-30e1c90f5a76",
+        "task_type": "Installation",
+        "status": "Completed",
+        "created_at": "2023-09-14T05:41:54.977Z",
+        "updated_at": "2023-09-14T06:35:00.421Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "7efefb3d-283d-45eb-830f-91afeb47b87a",
+        "task_type": "Maintenance",
+        "status": "Cancelled",
+        "created_at": "2023-09-14T06:31:13.259Z",
+        "updated_at": "2023-09-15T01:10:15.639Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "719d2159-70eb-47b2-95ab-9f919aab9b2a",
+        "task_type": "Consultation",
+        "status": "On Hold",
+        "created_at": "2023-09-14T08:46:51.491Z",
+        "updated_at": "2023-09-14T16:32:38.290Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "service_rate": [
+      {
+        "id": "44daf19b-d951-4e76-9a68-0df7ee7c8088",
+        "service_type": "Hourly",
+        "rate": 1160,
+        "created_at": "2023-09-14T16:33:47.482Z",
+        "updated_at": "2023-09-14T13:17:26.012Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "7037c382-b354-4757-adb3-4f6faa233d31",
+        "service_type": "Fixed",
+        "rate": 16275,
+        "created_at": "2023-09-14T05:26:48.703Z",
+        "updated_at": "2023-09-15T00:19:37.938Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "f33b843b-4a69-4b58-9655-963b63fb0cda",
+        "service_type": "Per Project",
+        "rate": 35640,
+        "created_at": "2023-09-14T18:36:46.868Z",
+        "updated_at": "2023-09-14T15:24:22.726Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "30c5c6af-db90-45e3-9cbd-4c6ef824edb2",
+        "service_type": "Monthly",
+        "rate": 80030,
+        "created_at": "2023-09-14T10:38:48.680Z",
+        "updated_at": "2023-09-14T19:22:00.766Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "5cfce98a-7e5e-495d-91a9-088de3409b0e",
+        "service_type": "Annual",
+        "rate": 40589,
+        "created_at": "2023-09-15T03:38:10.480Z",
+        "updated_at": "2023-09-14T21:21:58.589Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "4624cee9-314b-4864-bcfa-78e75106c219",
+        "name": "Product A",
+        "description": "High-quality product",
+        "created_at": "2023-09-14T18:36:04.592Z",
+        "updated_at": "2023-09-14T12:34:35.343Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "a9372891-7ef5-49db-80b6-deca14ac4828",
+        "name": "Product B",
+        "description": "Durable product",
+        "created_at": "2023-09-15T03:58:57.606Z",
+        "updated_at": "2023-09-14T09:24:29.896Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "12577526-da3b-41c1-babb-a801f9c565bc",
+        "name": "Product C",
+        "description": "Innovative product",
+        "created_at": "2023-09-14T08:45:38.010Z",
+        "updated_at": "2023-09-14T18:58:42.753Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "436f19c7-c3e7-4ae0-be88-ef748809799b",
+        "name": "Product D",
+        "description": "Versatile product",
+        "created_at": "2023-09-14T21:23:14.684Z",
+        "updated_at": "2023-09-14T06:06:58.490Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "0359c831-6397-4180-b8de-7c2972e92d92",
+        "name": "Product E",
+        "description": "Eco-friendly product",
+        "created_at": "2023-09-14T10:24:23.811Z",
+        "updated_at": "2023-09-14T13:01:34.281Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "98ae6133-6b4c-4178-847a-73c5f24bdfc7",
+        "order_type": "Online",
+        "status": "Pending",
+        "created_at": "2023-09-14T20:15:16.336Z",
+        "updated_at": "2023-09-14T11:42:19.670Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "fe9c6ff3-af4c-4196-94a4-3c22681c7f89",
+        "order_type": "Phone",
+        "status": "Processing",
+        "created_at": "2023-09-14T22:50:07.490Z",
+        "updated_at": "2023-09-15T01:53:18.814Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "64a65dd5-309d-4c9a-8c9b-8a6701df7d15",
+        "order_type": "In-store",
+        "status": "Shipped",
+        "created_at": "2023-09-14T10:02:22.254Z",
+        "updated_at": "2023-09-14T14:26:13.667Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "f8182287-befc-4b21-8e11-30c1a2031746",
+        "order_type": "Mobile App",
+        "status": "Delivered",
+        "created_at": "2023-09-14T09:39:51.002Z",
+        "updated_at": "2023-09-15T03:05:55.186Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "0fed6470-b313-4817-bbf6-ef5deff84b97",
+        "order_type": "Email",
+        "status": "Cancelled",
+        "created_at": "2023-09-14T14:50:47.394Z",
+        "updated_at": "2023-09-14T15:38:35.245Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0e8e94cc-3cfe-4f00-b59e-81188c9b5ac9",
+        "email": "America.Johns-Kohler@yahoo.com",
+        "firstName": "Paxton",
+        "lastName": "Halvorson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/405.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f4d3c2da-325e-40cf-90a2-6e62b22165d2",
+        "email": "Calista24@hotmail.com",
+        "firstName": "Alan",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/333.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "efce9f88-f564-4ca5-8d4a-c1f755de1b6a",
+        "email": "Rocky_Medhurst14@hotmail.com",
+        "firstName": "Waylon",
+        "lastName": "Gutkowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26906093",
+        "tenantId": null
+      },
+      {
+        "reference": "86516421-381b-4eab-8e25-3acc594045d4",
+        "email": "Skyla.Fritsch@yahoo.com",
+        "firstName": "Katharina",
+        "lastName": "Nitzsche",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/420.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "be86ae15-3960-4961-bb34-2fb9ebcca242",
+        "email": "Neha.Harris@hotmail.com",
+        "firstName": "River",
+        "lastName": "Block",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47452291",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "5c03a520-e7ba-4629-88d5-1cf1bdd82e16",
+        "task_type": "Cleaning",
+        "status": "Pending",
+        "created_at": "2023-09-14T16:41:07.845Z",
+        "updated_at": "2023-09-14T16:01:36.250Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "782570c3-549e-4805-8bee-b397f34d4650",
+        "task_type": "Repair",
+        "status": "In Progress",
+        "created_at": "2023-09-14T10:08:30.324Z",
+        "updated_at": "2023-09-14T23:42:02.029Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "30ccb91e-11df-4a9e-9d2a-19582b3c94f2",
+        "task_type": "Installation",
+        "status": "Completed",
+        "created_at": "2023-09-14T11:19:45.530Z",
+        "updated_at": "2023-09-14T20:27:15.088Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "251fc518-5cd8-436e-b1b4-7037d53e699e",
+        "task_type": "Maintenance",
+        "status": "On Hold",
+        "created_at": "2023-09-14T07:52:21.768Z",
+        "updated_at": "2023-09-14T04:59:57.491Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "c62d619d-19e7-4060-b95a-032bd1d83cf6",
+        "task_type": "Consultation",
+        "status": "Cancelled",
+        "created_at": "2023-09-14T19:13:01.819Z",
+        "updated_at": "2023-09-14T21:07:03.576Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "service_rate": [
+      {
+        "id": "304adca1-dd68-42a9-9e6b-2dbf8edb2c40",
+        "service_type": "Hourly",
+        "rate": 80436,
+        "created_at": "2023-09-14T07:57:49.802Z",
+        "updated_at": "2023-09-14T10:51:54.466Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "07c4378a-081a-40a9-96ee-0a834e3839e6",
+        "service_type": "Fixed",
+        "rate": 93717,
+        "created_at": "2023-09-14T08:21:40.286Z",
+        "updated_at": "2023-09-14T06:44:24.107Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "7db1ba0a-4155-4a45-b024-3d7cdccb9448",
+        "service_type": "Per Visit",
+        "rate": 49607,
+        "created_at": "2023-09-14T18:46:12.524Z",
+        "updated_at": "2023-09-14T16:37:07.977Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "c9772edb-0dae-4363-95db-71e61835fe02",
+        "service_type": "Monthly",
+        "rate": 19909,
+        "created_at": "2023-09-15T00:48:31.760Z",
+        "updated_at": "2023-09-14T22:36:11.626Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "eb0bfcd9-38f4-4ab2-9ebc-a8fee5be363d",
+        "service_type": "Project-based",
+        "rate": 81050,
+        "created_at": "2023-09-14T20:22:50.673Z",
+        "updated_at": "2023-09-14T08:11:16.331Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "b509257d-d53d-46a1-88de-50c9904c8a8a",
+        "name": "Product A",
+        "description": "High-quality product with advanced features",
+        "created_at": "2023-09-14T15:12:25.471Z",
+        "updated_at": "2023-09-14T19:54:20.449Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "95c14621-e312-4379-9fee-7c48c2dddb07",
+        "name": "Product B",
+        "description": "Durable and reliable product for everyday use",
+        "created_at": "2023-09-14T13:30:12.071Z",
+        "updated_at": "2023-09-14T08:33:39.519Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "076c2c46-84e3-4208-9408-5b8f1f8aecf5",
+        "name": "Product C",
+        "description": "Innovative product designed for efficiency",
+        "created_at": "2023-09-15T01:46:58.520Z",
+        "updated_at": "2023-09-14T14:44:09.723Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "7c644e44-99e4-4aa6-ab83-f2a7ecfd9aa7",
+        "name": "Product D",
+        "description": "Versatile product suitable for various applications",
+        "created_at": "2023-09-14T21:24:29.051Z",
+        "updated_at": "2023-09-14T17:47:53.525Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "8bf2c343-fb73-4b79-8014-e399109bb72c",
+        "name": "Product E",
+        "description": "Premium product with excellent performance",
+        "created_at": "2023-09-14T08:22:34.871Z",
+        "updated_at": "2023-09-14T09:23:32.801Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "f694c765-07cd-4e42-abbc-0ae6505d31af",
+        "order_type": "Online",
+        "status": "Pending",
+        "created_at": "2023-09-14T21:05:22.732Z",
+        "updated_at": "2023-09-14T10:35:13.766Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "04b9eb53-787e-478f-b475-d72e35e8de87",
+        "order_type": "Phone",
+        "status": "Processing",
+        "created_at": "2023-09-14T07:44:33.215Z",
+        "updated_at": "2023-09-14T14:46:28.006Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "53a3ecc5-592f-48a3-9418-a369f6ce55c0",
+        "order_type": "In-person",
+        "status": "Shipped",
+        "created_at": "2023-09-14T08:15:19.920Z",
+        "updated_at": "2023-09-14T22:42:27.969Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "cf1e650f-5568-42f6-84e5-fdef62e67af4",
+        "order_type": "Mobile App",
+        "status": "Delivered",
+        "created_at": "2023-09-14T14:52:41.081Z",
+        "updated_at": "2023-09-14T05:18:04.114Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "f9cc7a38-a0fd-4b82-bc39-c9a0def112e0",
+        "order_type": "Email",
+        "status": "Cancelled",
+        "created_at": "2023-09-14T17:50:47.413Z",
+        "updated_at": "2023-09-14T09:36:59.365Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "687ef8ea-784c-4831-90ad-0810b4baca0c",
+        "email": "Jerome.Ryan@hotmail.com",
+        "firstName": "Paris",
+        "lastName": "Daugherty",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33731719",
+        "tenantId": null
+      },
+      {
+        "reference": "f2c028a6-8a57-4578-866a-8d44fedc5ef6",
+        "email": "Taurean_Hagenes@gmail.com",
+        "firstName": "Ayana",
+        "lastName": "Pagac",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11889061",
+        "tenantId": null
+      },
+      {
+        "reference": "245d3196-8e6d-4494-b760-57a0d98e73b2",
+        "email": "Hertha.Kertzmann@yahoo.com",
+        "firstName": "Sheila",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/883.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "13cd9fae-875e-4589-b544-1071384e1077",
+        "email": "Sheila_Lowe30@yahoo.com",
+        "firstName": "Tressie",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90692090",
+        "tenantId": null
+      },
+      {
+        "reference": "1392304a-16ae-4ffd-875a-4de57ee4eb25",
+        "email": "Mark_Zemlak@yahoo.com",
+        "firstName": "Loyce",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54175175",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "dee7c1d0-4b77-4b63-8105-5954bf65b1a8",
+        "task_type": "Cleaning",
+        "status": "Pending",
+        "created_at": "2023-09-14T09:47:03.053Z",
+        "updated_at": "2023-09-14T20:06:25.100Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "06b5170c-c38c-424c-aa45-81369d15ac48",
+        "task_type": "Repair",
+        "status": "In Progress",
+        "created_at": "2023-09-14T11:01:41.681Z",
+        "updated_at": "2023-09-14T08:02:26.806Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "779d9506-bb99-4fd8-90c1-8df9c8cc7d0f",
+        "task_type": "Installation",
+        "status": "Completed",
+        "created_at": "2023-09-14T20:08:33.356Z",
+        "updated_at": "2023-09-14T16:17:35.660Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "247c4928-bdf9-4202-be2f-e736dd8981b1",
+        "task_type": "Maintenance",
+        "status": "On Hold",
+        "created_at": "2023-09-14T21:52:05.516Z",
+        "updated_at": "2023-09-15T00:55:30.360Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "c6d8540e-614a-42c1-8985-603c7088f3e0",
+        "task_type": "Consultation",
+        "status": "Cancelled",
+        "created_at": "2023-09-15T03:41:07.736Z",
+        "updated_at": "2023-09-14T12:11:36.428Z",
+        "logistics_coordinator_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "service_rate": [
+      {
+        "id": "b2b4a0f2-fd13-41fa-9f30-41f62c93a0f4",
+        "service_type": "Hourly",
+        "rate": 84652,
+        "created_at": "2023-09-14T08:53:48.887Z",
+        "updated_at": "2023-09-14T14:52:22.511Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "33f3ca3e-877c-4cde-bc01-02612fa2b7a6",
+        "service_type": "Fixed",
+        "rate": 29334,
+        "created_at": "2023-09-15T02:39:12.074Z",
+        "updated_at": "2023-09-14T14:58:49.265Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "91b610c1-8f4b-48f6-a7c5-09a15ce142ae",
+        "service_type": "Per Visit",
+        "rate": 61428,
+        "created_at": "2023-09-15T01:48:59.169Z",
+        "updated_at": "2023-09-14T06:22:39.490Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "e988f7fa-eb49-4098-82b1-4da9035c556c",
+        "service_type": "Monthly",
+        "rate": 26230,
+        "created_at": "2023-09-14T06:40:03.666Z",
+        "updated_at": "2023-09-14T10:58:36.452Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "09693c68-e075-4777-aeba-08f4b7ca2a6a",
+        "service_type": "Annual",
+        "rate": 50923,
+        "created_at": "2023-09-14T07:04:25.466Z",
+        "updated_at": "2023-09-14T05:30:06.825Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "95a0f5f5-dac9-451c-a294-d064f9060d38",
+        "name": "Product A",
+        "description": "High-quality and durable",
+        "created_at": "2023-09-14T12:16:40.715Z",
+        "updated_at": "2023-09-14T05:24:58.336Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "332c960f-55d4-4d3e-a1e9-6d109a1573d5",
+        "name": "Product B",
+        "description": "Innovative and versatile",
+        "created_at": "2023-09-14T18:18:02.152Z",
+        "updated_at": "2023-09-14T19:59:17.173Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "ec4ebff0-3f7f-4ed6-bf44-0c78208b836d",
+        "name": "Product C",
+        "description": "Eco-friendly and sustainable",
+        "created_at": "2023-09-14T06:19:44.695Z",
+        "updated_at": "2023-09-14T22:30:47.113Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "357c802a-0d5e-4956-920a-387b28134356",
+        "name": "Product D",
+        "description": "Stylish and functional",
+        "created_at": "2023-09-14T12:09:44.444Z",
+        "updated_at": "2023-09-14T21:22:08.345Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "8a8d7373-2df8-4fe8-a9e8-6fba35d6de27",
+        "name": "Product E",
+        "description": "Reliable and efficient",
+        "created_at": "2023-09-14T09:29:49.364Z",
+        "updated_at": "2023-09-15T01:06:05.263Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "order": [
+      {
+        "id": "8744dc30-b97a-4e12-a3d2-25b6421eeca0",
+        "order_type": "Online",
+        "status": "Pending",
+        "created_at": "2023-09-15T02:12:18.499Z",
+        "updated_at": "2023-09-15T02:46:33.262Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "0a30bd23-81b1-4030-a48c-17d8ee93f0e6",
+        "order_type": "Phone",
+        "status": "Processing",
+        "created_at": "2023-09-14T23:13:22.611Z",
+        "updated_at": "2023-09-14T23:25:48.639Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "f0fe6f95-de45-4bb8-a541-6fd230880ea9",
+        "order_type": "In-store",
+        "status": "Shipped",
+        "created_at": "2023-09-14T19:20:53.379Z",
+        "updated_at": "2023-09-15T02:06:06.796Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "22052380-82a7-4e7f-adcb-33c2be1356a0",
+        "order_type": "Mobile App",
+        "status": "Delivered",
+        "created_at": "2023-09-14T15:42:18.952Z",
+        "updated_at": "2023-09-14T14:24:28.238Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "07e8cce6-3a20-4869-bd83-6ec6bb16ef35",
+        "order_type": "Email",
+        "status": "Cancelled",
+        "created_at": "2023-09-15T03:20:33.561Z",
+        "updated_at": "2023-09-15T00:01:51.557Z",
+        "customer_id": "user_entity_pk",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "41627d7b-659b-4518-b9b6-5a28ddca57dc",
+        "email": "Stevie_Hilll30@gmail.com",
+        "firstName": "Korbin",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/256.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "29c17f58-e8d8-4d10-99d3-69ac25bb0a44",
+        "email": "Markus.Prohaska23@hotmail.com",
+        "firstName": "Bridie",
+        "lastName": "Yost",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7254798",
+        "tenantId": null
+      },
+      {
+        "reference": "66c949eb-e60d-4b57-8400-aa94f1aa8c44",
+        "email": "Edgar78@gmail.com",
+        "firstName": "Alan",
+        "lastName": "Stark",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16668684",
+        "tenantId": null
+      },
+      {
+        "reference": "7fb63189-48e2-4072-bd57-ae7e332900eb",
+        "email": "Dante.Swift@gmail.com",
+        "firstName": "Joyce",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41269384",
+        "tenantId": null
+      },
+      {
+        "reference": "cea7a005-2055-4a05-8271-a3900a19a14b",
+        "email": "Jackeline.Kihn@gmail.com",
+        "firstName": "Domenick",
+        "lastName": "Stroman-Pfeffer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37549512",
+        "tenantId": null
+      }
+    ]
+  }
+]
